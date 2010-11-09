@@ -20,7 +20,7 @@ window.stretchTasks = function () {
     }
 
     //set the Tasks height:
-    divs[i].style.height = window.innerHeight - 260 + "px";
+    divs[i].style.height = window.innerHeight - 300 + "px";
 }
 
 /* for Mozilla/Opera9 */
