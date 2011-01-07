@@ -3,6 +3,7 @@
 // @namespace      org.denknerd.gtasks
 // @description    makes the tasks pane in google calendar more usable
 // @include        https://www.google.com/calendar/*
+// @include        http://www.google.com/calendar/*
 // ==/UserScript==
 //
 
@@ -20,7 +21,10 @@ window.stretchTasks = function () {
     }
 
     //set the Tasks height:
-    divs[i].style.height = window.innerHeight - 300 + "px";
+    divs[i].style.height = window.innerHeight - 250 + "px";
+
+    var tipsBox = document.getElementById('funbox');
+    tipsBox.style.display = "none";
 }
 
 /* for Mozilla/Opera9 */
