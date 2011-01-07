@@ -2,7 +2,7 @@
 // @name           larger tasks
 // @namespace      org.denknerd.gtasks
 // @description    makes the tasks pane in google calendar more usable
-// @include        http://www.google.com/calendar/*
+// @include        https://www.google.com/calendar/*
 // ==/UserScript==
 //
 
