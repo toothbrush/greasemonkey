@@ -10,6 +10,8 @@
 window.stretchTasks = function () {
     divs = document.getElementsByTagName("div");
     count = 0 ;
+    
+    // god, we probably want to use jQuery here or something.
     for(i = 0; i < divs.length; i++)
     {
         if(divs[i].className == 'sng-content')
