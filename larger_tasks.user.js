@@ -23,7 +23,7 @@ window.stretchTasks = function () {
     }
 
     //set the Tasks height:
-    divs[i].style.height = window.innerHeight - 270 + "px";
+    divs[i].style.height = window.innerHeight - 280 + "px";
 
     var tipsBox = document.getElementById('funbox');
     tipsBox.style.display = "none";
